@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>TomDawncats HomePage | AboutMe</title>
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style_main.css">
+        <link rel="icon" href="../images/team.ico">
+    </head>
+
+    <body>
+        <header id="header_top">
+            <div id="icon_pic">
+                <a href="../index.html"><img src="../images/team.ico"></a>
+            </div>
+            <a href="../aboutMe/aboutMe.html" class="links">About Me</a>
+            <a href="../dev/dev.html" class="links">Development</a>
+            <a href="../links/links.html" class="links" style="margin-right: 50px;">Links</a>
+            <button id="slack_button">Join the our team!</button>
+            <script >
+                document.getElementById('slack_button').addEventListener('click', function() 
+                {
+                    window.open("https://join.slack.com/t/w1706430406-z9m676446/shared_invite/zt-2bhi1pe6q-U3lnGaxHQDFN8~wbMRHP~w", "_blank");
+                });
+            </script>
+        </header>
+
+        <main>
+            <div>
+                <h3 style="text-align: center;">開発状況</h3>
+                <ul>
+                    <li>プログラミング言語「Freeze」の開発</li>
+                    <li>Pythonでのウェブスクレイピング</li>
+                    <li>Pythonでの簡易的な機械学習プログラムの開発</li>
+                    <li>このサイトの拡張</li>
+                </ul>
+                <p>※Freezeの開発に参加したい方は、画面右上の参加ボタンをクリックしてください。</p>
+            </div>
+        </main>
+
+        <footer style="background-color: rgb(255, 255, 255); text-align: center; background-color: orange;">
+            <p>ご不満がある場合、下記に報告してください</p>
+            <a href="https://forms.gle/MPUdZAcVnFDdEEws7">google form</a>
+        </footer>
+
+        <style>
+            main
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            main div
+            {
+                border-style: double; 
+                padding: 10px;
+            }
+        </style>
+    </body>
+</html>

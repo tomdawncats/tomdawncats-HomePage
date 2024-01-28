@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#header_top
+{
+    background-color: orange;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#icon_pic
+{
+    margin-right: auto;
+}
+
+.links
+{
+    margin-left: 50px;
+}
+
+#slack_button
+{
+    background-color: aqua;
+}
+
+#picture_content
+{
+    background-image: url(images/tomdawncats.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
